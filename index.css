@@ -1,0 +1,56 @@
+/* body{
+    max-width: 1280px;
+} */
+
+/* header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('images/desctop.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+@media only screen and (max-width:768px) {
+    header{
+        width: 100%;
+        min-height: 100vh;
+        background-color: url('images/mobile.gif');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+} */
+
+header {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("images/mobile.gif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+   }
+   
+   @media screen and (min-width: 768px) {
+   header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('images/desctop.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    }
+   }
+   
+   @media screen and (min-width: 1025px) {
+   header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('images/desctop.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    }
+   }
