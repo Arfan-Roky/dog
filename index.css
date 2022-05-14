@@ -126,7 +126,7 @@ position: relative;
 .benji-frens-five{
      position: absolute;
      top: 85%;
-     right: 10%;
+     left: 34%;
 }
 
 
@@ -150,8 +150,29 @@ position: relative;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    position: relative;
 }
 
+.utility-first-desc{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.utility-mobile-text{
+    position: absolute;
+    top: 23%;
+    left: 6%;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.utility-desc{
+    color: #23547b;
+    font: 1.8rem;
+    margin-bottom: 24px;
+}
 
 
 /* SIXTH MOBILE SECTION */
