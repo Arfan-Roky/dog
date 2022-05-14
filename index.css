@@ -185,6 +185,38 @@ position: relative;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    position: relative;
+}
+
+.babies-middle-mobile-desc{
+    position: absolute;
+    top: 32%;
+    left: 10%;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    color: #23547b;
+}
+
+.babies-mobile-text{
+
+    position: absolute;
+    top: 65%;
+    left: 12%;
+    color: #23547b;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.babies-mobile-desc{
+    margin-bottom: 25px;
+    color: #23547b;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+
+.rose-color{
+    color:#ed7d89;
 }
 
 /* SEVEN MOBILE SECTION */
