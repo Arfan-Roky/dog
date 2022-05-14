@@ -90,7 +90,7 @@ box-sizing: border-box;
  /* FORTH MOBILE SECTION */
 .benji-forth-mobile-section{
     display: block;
-    width: 760px;
+    width: 740px;
 margin: 0 auto;
 height: 1399px;
 background-image: url('photos/mobile/m-4.gif');
@@ -127,19 +127,12 @@ position: relative;
 .benji-frens-five{
      position: absolute;
      top: 85%;
-     left: 34%;
+     left: 32%;
 }
 
-
-
-.benji-forth-desktop-heading{
+.benji-forth-desktop-section{
     display: none;
 }
-
-.benfi-forth-desktop-info{
-    display: none;
-}
-
 
 /* FIFTH MOBILE SECTION */
 .utility-innovation-mobile-section{
@@ -319,7 +312,8 @@ position: relative;
   }
 
     /* FORTH DESKTOP SECTION */
-    .benfi-forth-desktop-section{
+    .benji-forth-desktop-section{
+        display: block;
         width: 100%;
         height: 820px;
        background-image: url('photos/desktop/d-3.png');
@@ -329,30 +323,48 @@ position: relative;
        position: relative;
     }
 
-    .benfi-forth-desktop-info-text{
-        width: 90%;
-        position: absolute;
-        left: 21%;
-        top: 16%;
-    }
-
-    .benfi-forth-desktop-info{
-        display: block;
-        margin-top: 20px;
-        width: 67%;
-        display: flex;
-        justify-content: space-between;
-    }
 
     .benji-forth-desktop-heading{
-        display: block;
-        font-size: 4rem; 
-        margin-bottom: 10px;
-         text-align: center;
-          width: 60%; 
-          margin-top: -60px;
-           margin-bottom: 30px; color: #23547b;
+        font-size: 4rem;
+        position: absolute;
+        left: 36%;
+        color: #23547b;
     }
+
+    .friend-one{
+        position: absolute;
+        top: 20%;
+        left: 20%;
+    }
+    
+    .friend-two{
+        position: absolute;
+        top: 20%;
+        right: 20%;
+    }
+
+    .friend-three{
+        position: absolute;
+        top: 46%;
+        left: 20%;
+    }
+    .friend-four{
+        position: absolute;
+        top: 46%;
+        right: 20%;
+    }
+
+    .friend-five{
+        position: absolute;
+        top: 75%;
+        left: 20%;
+    }
+    .friend-six{
+        position: absolute;
+        top: 75%;
+        right: 20%;
+    }
+
 
     .benji-forth-mobile-section{
         display: none;
