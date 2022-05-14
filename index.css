@@ -20,9 +20,10 @@ box-sizing: border-box;
   .first-mobile-section-info{
       color: white;
       position: absolute;
-      top: 64%;
-       left: 20%;
+      top: 62%;
+       left: 22%;
        text-align: center;
+       font-size: 2rem;
   }
 
   .benji-first-desktop-section{
@@ -88,7 +89,7 @@ box-sizing: border-box;
 
  /* FORTH MOBILE SECTION */
 .benji-forth-mobile-section{
-
+    display: block;
     width: 760px;
 margin: 0 auto;
 height: 1399px;
@@ -174,6 +175,10 @@ position: relative;
     margin-bottom: 24px;
 }
 
+.utility-innovation-desktop-section{
+    display: none;
+}
+
 
 /* SIXTH MOBILE SECTION */
 .benji-babies-mobile-section{
@@ -229,6 +234,10 @@ position: relative;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+}
+
+.benji-babies-desktop-section{
+    display: none;
 }
 
 
@@ -350,17 +359,131 @@ position: relative;
     }
 
     /* FIFTH DESKTOP SECTION */
+
+    .utility-innovation-desktop-section{
+        display: block;
+        width: 100%;
+        height: 820px;
+       background-image: url('photos/desktop/d-4.png');
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+       position: relative;
+    }
+
+    .utility-desktop-heading{
+        position: absolute;
+        top: 4%;
+        left: 36%;
+        font-size: 2.8rem;
+        color: #ed7d89;
+    }
+
+    .utility-desktop-top{
+        position: absolute;
+        top: 14%;
+        left: 12%;
+        text-align: center;
+        font-size: 1.7rem;
+        color: #23547b;
+    }
+
+    .utility-desktop-text-top{
+        position: absolute;
+        top: 25%;
+        left:33%;
+        text-align: center;
+
+    }
+
+    .utility-desktop-text-middle{
+        position: absolute;
+        top: 47%;
+        left:42%;
+
+    }
+
+    .utility-desktop-text-bottom{
+        position: absolute;
+        top: 53%;
+        left:33%;
+        text-align: center;
+
+    }
+
+    .utility-desktop-desc{
+        color: #23547b;
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+        letter-spacing: 1px;
+
+    }
+
+    .utility-desktop-text-footer{
+        position: absolute;
+        top:66%;
+        color: #23547b;
+        left: 23%;
+        font-size: 2rem;
+    }
+
     .utility-innovation-mobile-section{
         display: none;
     }
 
 
       /* SIXTH DESKTOP SECTION */
+
+      .benji-babies-desktop-section{
+          display: block;
+        width: 100%;
+        height: 820px;
+       background-image: url('photos/desktop/d-5.png');
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+       position: relative;
+      }
+
+      .babies-desktop-top{
+          position: absolute;
+          left: 10%;
+          text-align: center;
+      }
+
+      .babies-desktop-text{
+          position: absolute;
+          top: 39%;
+          left: 13%;
+          text-align: center;
+      }
+
+
+      .babies-desktop-desc{
+          color: #23547b;
+          font-size: 2rem;
+          margin-bottom: 1.6rem;
+          letter-spacing: 1px;
+      }
+
+      .red-color{
+          color: red;
+      }
+
       .benji-babies-mobile-section{
           display: none;
       }
 
       /* SEVEN DESKTOP SECTION */
+      .benji-footer-desktop-section{
+        width: 100%;
+        height: 820px;
+       background-image: url('photos/desktop/d-6.png');
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+       position: relative;
+      }
       .benji-footer-mobile-section{
           display: none;
       }
