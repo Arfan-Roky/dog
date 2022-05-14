@@ -239,7 +239,7 @@ position: relative;
     .benji-first-desktop-section{
         display: block;
         width: 100%;
-        height: 96vh;
+        height: 800px;
         background-image: url('photos/desktop/d-0.gif');
         background-repeat: no-repeat;
         background-position: center center;
